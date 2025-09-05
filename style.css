@@ -193,7 +193,7 @@ header h1 {
                 }
             }
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
 
                 .inputs input {
                     width: 30px;
@@ -295,7 +295,7 @@ header h1 {
         }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 991px) {
             .main-window {
                 flex-direction: column;
                 max-width: none;
@@ -317,7 +317,7 @@ header h1 {
         }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .guess-game {
         padding: 0;
     }
@@ -332,4 +332,5 @@ footer {
     width: 100%;
     color: #fff;
     font-weight: bold;
+
 }
