@@ -211,7 +211,7 @@ hintBtn.addEventListener(("click"), function () {
 })
 
 nextBtn.addEventListener("click", function() {
-    if (Number(localStorage.getItem("level")) < words.length)
+    if (Number(localStorage.getItem("level")) <= words.length)
     Windex++; 
     if ( Number(localStorage.getItem("level")) >= Windex)
         localStorage.setItem("level", Windex); 
@@ -232,3 +232,4 @@ playAgain.addEventListener("click", function() {
     localStorage.setItem("level", 0);
     location.reload();
 })
+
