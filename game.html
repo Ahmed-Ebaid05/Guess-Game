@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+    </head>
+    <body>
+        <header>
+            <div class="icon">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+            <ul></ul>
+            <h1></h1>
+        </header>
+        <div class="guess-game">
+            <div class="main-window">
+                <div class="colors">
+                    <h2>Key Colors</h2>
+                    <div class="color">
+                        <div class="key-color correct"></div>
+                        <p>Letter Is Correct And In Place</p>
+                    </div>
+                    <div class="color">
+                        <div class="key-color not-in-place"></div>
+                        <p>Letter Is Correct, But Not In Place</p>
+                    </div>
+                    <div class="color">
+                        <div class="key-color wronge"></div>
+                        <p>Letter Is Wrong</p>
+                    </div>
+                </div>
+
+                <div class="game-area">
+                    <div class="inputs"></div>
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p></p>
+                        <span></span>
+                    </div>
+                    <div class="controls">
+                        <button class="check">Check Word</button>
+                        <button class="hint"><span></span></button>
+                        <div class="winning">
+                            <p>Congratulations</p>
+                            <span>You Win!!!</span>
+                            <button class="next">Next level <i class="fas fa-angle-right"></i></button>
+                        </div>
+                        <div class="last-level">
+                            <p>This Was The last Level</p>
+                            <button class="again">Play Again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>Made By Ahmed Ebaid</footer>
+        <script src="main.js"></script>
+    </body>
+</html>
